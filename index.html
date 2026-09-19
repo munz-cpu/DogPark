@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>애견공원</title>
+    <title>애견카페</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width="960" height="600" tabindex="-1" style="width: 960px; height: 600px; background: #808080"></canvas>
+    <canvas id="unity-canvas" width="1920" height="1080" tabindex="-1" style="width: 1920px; height: 1080px; background: #808080"></canvas>
     <script src="Build/dogParkRelease.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -28,9 +28,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/dogParkRelease.data.br",
-        frameworkUrl: "Build/dogParkRelease.framework.js.br",
-        codeUrl: "Build/dogParkRelease.wasm.br",
+        dataUrl: "Build/dogParkRelease.data",
+        frameworkUrl: "Build/dogParkRelease.framework.js",
+        codeUrl: "Build/dogParkRelease.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "unknown",
         productName: "dogPark",
